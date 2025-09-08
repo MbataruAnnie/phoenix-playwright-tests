@@ -1,0 +1,16 @@
+{
+  "name": "phoenix_test",
+  "version": "1.0.0",
+  "description": "Annies Test",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "author": "Annie Mbataru",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "cypress": "^14.5.4"
+  }
+}
