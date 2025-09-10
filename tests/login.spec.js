@@ -27,7 +27,7 @@ test('User can log in and create a loan request in PAIX SACCO portal', async ({ 
       throw new Error('Login failed: Companion App Not Running detected');
     }
 
-    // Step 2: Verify Dashboard
+    // Step 2: Verify Dashboards
     const dashboardHeading = page.getByRole('heading', { name: /dashboard/i });
     await dashboardHeading.waitFor({ state: 'visible', timeout: 30000 });
     await expect(dashboardHeading).toBeVisible();
